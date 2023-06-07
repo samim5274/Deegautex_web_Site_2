@@ -190,7 +190,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(236, 234, 234, 0.9);
   padding: 1rem 0;
   box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.9);
   z-index: 9999;
@@ -225,7 +225,7 @@ header {
 /* Mobail menu */
 
 .mobail-menu span {
-  color: #fff;
+  color: #000;
   font-size: 4rem;
   float: right;
   margin-top: 2rem;
@@ -309,6 +309,7 @@ header {
 #homeinfo img{
   height: 400px;
   width: 100%;
+  filter:brightness(70%);
 }
 /* home info section end */
 
@@ -401,7 +402,7 @@ header {
 
 .service-section{
   text-align: center;
-  background: linear-gradient(rgba(255,255,255,0.9),rgba(177, 173, 173, 0.9)),url(img/samim2.jpg);
+  background: linear-gradient(rgba(255,255,255,0.9),rgba(177, 173, 173, 0.9)),url(img/bg\ \(4\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -430,6 +431,73 @@ header {
 }
 
 /* service section end */
+
+
+ /* Company at a glance section start  */
+
+.glance-section{
+  text-align: center;
+  background: linear-gradient(rgba(177, 173, 173, 0.9),rgba(221, 220, 220, 0.9)),url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.glance-section .glance{
+  padding: 2rem;
+}
+.glance-section .g-row{
+  padding: 8rem 0 8rem 0;
+}
+.glance-section .rop{
+  font-size: 4rem;
+  padding-top: 2rem;
+  color:rgba(85, 99, 95, 0.9)
+}
+
+ /* Company at a glance section end  */
+
+ /* compliance section start  */
+.compliance-section{
+  text-align: center;
+  background: linear-gradient(rgba(139, 136, 136, 0.9),rgba(221, 220, 220, 0.9)),url(img/terms.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.compliance-section img{
+  height: 450px;
+  width: 450px;
+}
+.compliance-section h4{
+  color: rgb(35, 35, 35);
+}
+.compliance-section h3{
+  font-size: 3rem;
+}
+.compliance-section .discription{
+  color:rgb(35, 35, 35);
+}
+.compliance-section .span_1_of_2{
+  margin: 0;
+  padding: 3rem;
+}
+.compliance-section .c-row{
+  padding: 8rem 0 8rem 0;
+}
+
+/* dropdown section */
+.dropbtn{
+  background-color: #238ac1;
+  color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+ /* compliance section end */
 
 /* Footer section start */
 

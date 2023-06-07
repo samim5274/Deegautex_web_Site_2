@@ -65,6 +65,9 @@
   .service-section .role{
     font-size: 15px;
   }
+  .glance-section .glance{
+    width: 49.2%;
+  }
 }
 
 @media only screen and (max-width: 780px){
@@ -119,6 +122,9 @@ header{
   }
   .protfolio-filter button{
     font-size: .98rem;
+  }
+  .glance-section .glance{
+    width: 100%;
   }
 }
 /* 20 video ses */
