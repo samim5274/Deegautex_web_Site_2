@@ -115,7 +115,7 @@ section {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 4rem;
   display: inline-block;
   margin: 1rem 0 1rem 0;
   font-size: 1.6rem;
@@ -405,13 +405,28 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
 }
 .service-section h2,
 .service-sectionh3{
-  color: #1b1750;  
+  color: #1b1750; 
+}
+.service-section .sr-row{
+  padding: 8rem 0 8rem 0;
 }
 .service-section h2::after{
   background: #1b1750;
+}
+.service-section .s-box{
+  background: rgb(142, 141, 141,0.9);
+  margin: 1px;
+  padding-top: 1.5rem;
+  height: 120px;
+  width: 32.26%;
+}
+
+.service-section i{
+  color: #17183e;
 }
 
 /* service section end */

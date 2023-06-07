@@ -52,7 +52,19 @@
   html{
     font-size: 62.5%;
   }
-
+  .service-section .s-box{
+    background: #868d8d;
+    margin: 1px;
+    height: 100%;
+    color: #191846;
+    width: 100%;
+  }
+  .service-section .sr-row{
+    padding: 4rem 0 4rem 0;
+  }
+  .service-section .role{
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 780px){
@@ -76,7 +88,7 @@ header{
   .testimonial .col:nth-child(3),
   .testimonial .col:nth-child(4) {
     margin-top: 4rem;
-  }  
+  }    
 }
 
 
