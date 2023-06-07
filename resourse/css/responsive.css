@@ -92,6 +92,18 @@ header{
   .testimonial .col:nth-child(4) {
     margin-top: 4rem;
   }    
+  .dropdown-content {
+    min-width: 300px;
+  }
+  .dropdown-content2 {
+    min-width: 300px;
+  }
+  .dropdown-content p{
+    font-size: 14px;
+  }
+  .dropdown-content2 p{
+    font-size: 14px;
+  }
 }
 
 
@@ -125,6 +137,12 @@ header{
   }
   .glance-section .glance{
     width: 100%;
+  }
+  .dropdown-content {
+    padding: 0;
+  }
+  .dropdown-content2 {
+    padding: 0;
   }
 }
 /* 20 video ses */
