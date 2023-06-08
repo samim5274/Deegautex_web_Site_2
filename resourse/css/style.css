@@ -110,7 +110,7 @@ section {
 .btn:link,
 .btn:visited,
 .btn {
-  background: #333;
+  background: #464646;
   border-bottom: .3rem solid #7f8181;
   color: #fff;
   text-decoration: none;
@@ -124,7 +124,7 @@ section {
 /* header section */
 
 header {
-  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(137, 136, 136, 0.5)),
+  background: linear-gradient(rgba(137, 136, 136, 0.9),rgba(255, 255, 255, 0.9)),
   url(img/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -460,7 +460,7 @@ header {
  /* compliance section start  */
 .compliance-section{
   text-align: center;
-  background: linear-gradient(rgba(139, 136, 136, 0.9),rgba(221, 220, 220, 0.9)),url(img/terms.jpg);
+  background: linear-gradient(rgba(139, 136, 136, 0.9),rgba(236, 233, 233, 0.9)),url(img/terms.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -471,10 +471,11 @@ header {
   width: 450px;
 }
 .compliance-section h4{
-  color: rgb(35, 35, 35);
+  color: rgb(74, 74, 74);
 }
 .compliance-section h3{
   font-size: 3rem;
+  color:#616565;
 }
 .compliance-section .discription{
   color:rgb(35, 35, 35);
@@ -486,7 +487,11 @@ header {
 .compliance-section .c-row{
   padding: 8rem 0 8rem 0;
 }
-
+.compliance-section .btn {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #616565;
+}
 /* dropdown section */
 .dropbtn{
   background-color: #238ac1;
@@ -553,8 +558,13 @@ header {
 
 /* Footer section start */
 
-
 .footer-section{
+  text-align: center;
+  background: #0c0932;
+  color: #ffffff;
+}
+
+/* .footer-section{
   background: #4a577f;
   padding: 3rem 0;
   text-align: center;
@@ -575,7 +585,7 @@ header {
 
 .footer-section li:hover a {
   color: #30bae7;
-}
+} */
 
 
 /* Footer section End 22 */
