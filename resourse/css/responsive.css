@@ -104,6 +104,13 @@ header{
   .dropdown-content2 p{
     font-size: 14px;
   }
+  .footer-section .col {
+    width: 49%;
+    margin-bottom: 3rem;
+  }
+  .footer-section .third{
+    margin-left: 0;
+  }
 }
 
 
@@ -128,10 +135,7 @@ header{
   }
   h3{
     font-size: 2rem;
-  }
-  .footer-section li a{
-    font-size: 1.5rem;
-  }
+  }  
   .protfolio-filter button{
     font-size: .98rem;
   }
@@ -143,6 +147,28 @@ header{
   }
   .dropdown-content2 {
     padding: 0;
+  }
+  .footer-section .col {
+    width: 100%;
+    margin-bottom: 3rem;
+    text-align: center;
+  }  
+  .footer-section .col h4{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .footer-section .col h4::after{
+    visibility: hidden;
+  }
+  .footer-section .social-link{
+    width: 50%;
+    margin-left: 12.5rem;
+  }
+  .footer-section .footer-end a{
+    font-size: 1.5rem;
+  }
+  .footer-section .footer-end a:hover{
+    font-size: 1.7rem;
   }
 }
 /* 20 video ses */
