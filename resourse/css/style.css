@@ -124,7 +124,7 @@ section {
 /* header section */
 
 header {
-  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(103, 102, 102, 0.9)),
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(174, 172, 172, 0.7)),
   url(img/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -288,7 +288,7 @@ header {
 /* home info section start */
 #homeinfo{
   color: #000;
-  background:linear-gradient(rgba(190, 193, 199, 0.9), rgba(255, 255, 255, 0.9)), url(img/SP.JPG);
+  background:linear-gradient(rgba(222, 230, 246, 0.7), rgba(255, 255, 255, 0.9)), url(img/bg.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -315,11 +315,11 @@ header {
 
 /*  service section start  */
 
-
+/* 
 .services-section {
   color: #fff;
   text-align: center;
-  background: linear-gradient(rgba(71, 79, 77, 0.9), rgba(71, 79, 77, 0.9)), url(img/bg2.jpg);
+  background: linear-gradient(rgba(235, 253, 253, 0.9), rgba(214, 253, 243, 0.9)), url(img/bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -333,14 +333,14 @@ header {
   height: 12rem;
   margin-top: 4.5rem;
   margin-bottom: 3.5rem;
-}
+} */
 /*  service section end  */
 
 
 /* Our Customer section start */
 .customer-section{
   text-align: center;
-  background: linear-gradient(rgba(255,255,255,0.9),rgba(255, 255, 255, 0.9)),url(img/bg3.jpg);
+  background: linear-gradient(rgba(255,255,255,0.8),rgba(255, 255, 255, 0.8)),url(img/bg3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -371,7 +371,7 @@ header {
 /* out prodcut section start */
 .product-section{
   text-align: center;
-  background: linear-gradient(rgba(221, 218, 218, 0.8),rgba(255, 254, 254, 0.8)),url(img/sp2.JPG);
+  background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 254, 254, 0.8)),url(img/sp2.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -402,7 +402,7 @@ header {
 
 .service-section{
   text-align: center;
-  background: linear-gradient(rgba(255,255,255,0.9),rgba(177, 173, 173, 0.9)),url(img/bg\ \(4\).jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(232, 228, 228, 0.7)), url(img/bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -419,7 +419,7 @@ header {
   background: #1b1750;
 }
 .service-section .s-box{
-  background: rgb(142, 141, 141,0.9);
+  background: rgb(195, 193, 193);
   margin: 1px;
   padding-top: 1.5rem;
   height: 120px;
@@ -437,11 +437,17 @@ header {
 
 .glance-section{
   text-align: center;
-  background: linear-gradient(rgba(177, 173, 173, 0.9),rgba(221, 220, 220, 0.9)),url(img/bg.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(224, 224, 224, 0.9)),url(img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+.glance-section h2 {
+  color: #17183e;
+}
+.glance-section h2::after{
+  background: #17183e;
 }
 .glance-section .glance{
   padding: 2rem;
@@ -460,7 +466,7 @@ header {
  /* compliance section start  */
 .compliance-section{
   text-align: center;
-  background: linear-gradient(rgba(139, 136, 136, 0.9),rgba(236, 233, 233, 0.9)),url(img/terms.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(230, 228, 228, 0.9)),url(img/terms.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -469,6 +475,12 @@ header {
 .compliance-section img{
   height: 450px;
   width: 450px;
+}
+.compliance-section h2{
+  color: #110737;
+}
+.compliance-section h2::after{
+  background: #110737;
 }
 .compliance-section h4{
   color: rgb(74, 74, 74);
