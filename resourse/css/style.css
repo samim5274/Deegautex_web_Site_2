@@ -135,7 +135,7 @@ header {
 }
 
 .logo {
-  max-height: 3.5rem;
+  max-height: 5rem;
   width: auto;
   margin-top: 3.5rem;
   float: left;
@@ -198,6 +198,8 @@ header {
 
 .sticky .logo {
   margin-top: 0;
+    max-height: 3.5rem;
+    width: auto;
 }
 
 .sticky .main-nav {
@@ -437,7 +439,7 @@ header {
 
 .glance-section{
   text-align: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(224, 224, 224, 0.9)),url(img/bg.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(225, 215, 215, 0.9)),url(img/Prothoma.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
